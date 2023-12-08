@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "moxing:dilei_place",
+			"materials": {
+				"default": "snow_golem"
+			},
+			"textures": {
+				"default": "textures/entity/dilei_place"
+			},
+			"geometry": {
+				"default": "geometry.dilei_place"
+			},
+			"animations": {
+				"move": "animation.dilei_place.dectect",
+				"sheared": "animation.dilei_place.dectect",
+				"look_at_target": "animation.dilei_place.dectect",
+				"move_controller": "animation.dilei_place.dectect"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					{
+						"sheared": "query.is_sheared"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#9affba",
+				"overlay_color": "#a28bb5"
+			}
+		}
+	}
+}

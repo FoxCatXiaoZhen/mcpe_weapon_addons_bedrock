@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "moxing:dilei",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/dilei"
+			},
+			"geometry": {
+				"default": "geometry.dilei"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#919191",
+				"overlay_color": "#ababab"
+			}
+		}
+	}
+}

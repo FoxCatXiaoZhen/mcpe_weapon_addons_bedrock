@@ -1,0 +1,166 @@
+{
+"random.explode": {
+  "category": "hostile",
+  "min_distance": 25,
+  "sounds": [
+
+     {
+      "name": "sounds/random/bao1",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao2",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao3",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao4",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao5",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao6",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao7",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao8",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao9",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao10",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao11",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao12",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao13",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao14",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao15",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao16",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao17",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao18",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao19",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao20",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao21",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao22",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao23",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao24",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao25",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao26",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao27",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao28",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao29",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao30",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao31",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao32",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao33",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao34",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao35",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao36",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao37",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao38",
+      "volume" : 25
+    },
+     {
+      "name": "sounds/random/bao39",
+      "volume" : 25
+    }
+
+  ]
+  }
+}

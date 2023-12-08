@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "moxing:rocket_luancher",
+			"materials": {
+				"default": "snow_golem"
+			},
+			"textures": {
+				"default": "textures/entity/rocket_luancher"
+			},
+			"geometry": {
+				"default": "geometry.rocket_luancher"
+			},
+			"animations": {
+				"move": "animation.rocket_luancher.move",
+				"holding": "animation.rocket_luancher.sheared",
+				"sheared": "animation.rocket_luancher.sheared",
+				"look_at_target": "animation.rocket_luancher.sheared",
+				"move_controller": "controller.animation.snowgolem.move.v1.8"
+			},
+			"sound_effects": {
+				"radar": "radar"
+			},
+			"scripts": {
+				"animate": [
+					"move_controller",
+					{
+						"sheared": "query.is_sheared"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#9affba",
+				"overlay_color": "#a28bb5"
+			}
+		}
+	}
+}

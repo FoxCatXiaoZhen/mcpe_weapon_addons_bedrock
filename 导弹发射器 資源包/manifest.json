@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "导弹发射器 資源包",
+		"description": "狐猫小振制作",
+		"uuid": "ff63d199-aacc-4631-bd87-a5bc4d3c5ca2",
+		"version": [0, 0, 1],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["pack.authors"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.6"]
+		}
+	},
+	"modules": [
+		{
+			"description": "导弹发射器 行爲包",
+			"type": "resources",
+			"uuid": "8542b9f0-f314-4ec6-b116-b307be4b6f8b",
+			"version": [0, 1, 8]
+		}
+	]
+}
