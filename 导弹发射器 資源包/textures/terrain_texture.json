@@ -1,0 +1,8 @@
+"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "导弹发射器 資源包",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"moxing_iron_fence": {
+			"textures": "textures/blocks/iron_fence"
+		},
