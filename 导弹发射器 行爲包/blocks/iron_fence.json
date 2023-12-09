@@ -1,0 +1,20 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "moxing:iron_fence"
+		},
+		"components": {
+			"bridge:rotate_y_on_place": {
+				"flip": true
+			},
+			"minecraft:geometry": "geometry.iron_fence",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "moxing_iron_fence",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}
