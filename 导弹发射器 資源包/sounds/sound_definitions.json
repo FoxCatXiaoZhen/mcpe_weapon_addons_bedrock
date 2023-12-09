@@ -46,9 +46,18 @@
   
        {
         "name": "sounds/random/yanhuo",
-        "volume" : 0.5
+        "volume" : 1
       }
   
     ]
+    },
+    "set": {
+      "category": "sounds",
+      "sounds": [
+        {
+          "name": "sounds/random/set",
+          "load_on_low_memory": true
+        }
+      ]
     }
 }
