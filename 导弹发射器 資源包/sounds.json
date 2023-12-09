@@ -1,0 +1,46 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"moxing:rocket_luancher": {
+				"events": {
+					"death": "",
+					"hurt": "",
+					"shoot": ""
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+
+			"moxing:dilei": {
+				"events": {
+					"death": "",
+					"hurt": "",
+					"shoot": "",
+					"shooter":"random.bow"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+
+			 "moxing:fireworks_rocket2": {
+				"events": {
+					"death": "",
+					"hurt": "",
+					"shoot": ""
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			
+			 "moxing:dilei_place": {
+				"events": {
+					"death": "",
+					"hurt": "",
+					"shoot": ""
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}
