@@ -1,33 +1,43 @@
 {
-"random.explode": {
-  "category": "hostile",
-  "min_distance": 25,
-  "sounds": [
-
-     {
-      "name": "sounds/random/bao1",
-      "volume" : 25
-    },
-     {
-      "name": "sounds/random/bao2",
-      "volume" : 25
-    },
-     {
-      "name": "sounds/random/bao3",
-      "volume" : 25
-    },
-     {
-      "name": "sounds/random/bao4",
-      "volume" : 25
-    },
-     {
-      "name": "sounds/random/bao5",
-      "volume" : 25
-    },
-     {
-      "name": "sounds/random/bao6"
-     }
-
-  ]
+  "random.explode": {
+    "category": "hostile",
+    "min_distance": 25,
+    "sounds": [
+  
+       {
+        "name": "sounds/random/bao1",
+        "volume" : 25
+      },
+       {
+        "name": "sounds/random/bao2",
+        "volume" : 25
+      },
+       {
+        "name": "sounds/random/bao3",
+        "volume" : 25
+      },
+       {
+        "name": "sounds/random/bao4",
+        "volume" : 25
+      },
+       {
+        "name": "sounds/random/bao5",
+        "volume" : 25
+      },
+      {
+       "name": "sounds/random/bao6",
+       "volume" : 25
+      },
+      {
+       "name": "sounds/random/bao7",
+       "volume" : 25
+      },
+      {
+       "name": "sounds/random/bao8",
+       "volume" : 25
+      }
+  
+    ]
+    }
   }
-}
+  
