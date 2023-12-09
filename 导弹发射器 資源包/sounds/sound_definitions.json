@@ -59,5 +59,14 @@
           "load_on_low_memory": true
         }
       ]
+    },
+    "jihuo_dilei": {
+      "category": "sounds",
+      "sounds": [
+        {
+          "name": "sounds/random/jihuo_dilei",
+          "load_on_low_memory": true
+        }
+      ]
     }
 }
