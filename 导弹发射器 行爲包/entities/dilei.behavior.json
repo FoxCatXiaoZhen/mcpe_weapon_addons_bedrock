@@ -18,6 +18,11 @@
 				 "max":99999999999 
 			 
 			 },
+			 "minecraft:collision_box": {
+				"width": 0.5,
+				"height": 0.5
+						
+			},
 			"minecraft:physics": {
 				"has_gravity": true,
 				"has_collision": true
