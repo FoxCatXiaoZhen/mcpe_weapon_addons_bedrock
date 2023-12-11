@@ -55,8 +55,7 @@
       "category": "sounds",
       "sounds": [
         {
-          "name": "sounds/random/set",
-          "load_on_low_memory": true
+          "name": "sounds/random/set"
         }
       ]
     },
@@ -66,6 +65,14 @@
         {
           "name": "sounds/random/jihuo_dilei",
           "load_on_low_memory": true
+        }
+      ]
+    },
+    "bt_ap": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/random/battle_airplane"
         }
       ]
     }

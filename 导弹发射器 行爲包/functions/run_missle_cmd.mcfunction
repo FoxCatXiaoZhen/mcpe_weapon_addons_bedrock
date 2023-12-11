@@ -8,8 +8,8 @@ execute as @e[type=moxing:fireworks_rocket2,scores={tick2=0}] at @s run execute 
 
 
 
-execute as @e[type=moxing:fireworks_rocket2] at @s run particle minecraft:campfire_smoke_particle ~~~ 
-
+execute as @e[type=moxing:fireworks_rocket2,tag=!bomb] at @s run particle minecraft:campfire_smoke_particle ~~~ 
+execute as @e[type=moxing:fireworks_rocket2,tag=bomb] at @s run /playanimation @s animation.fireworks_rocket2.wxd
 
 
 
@@ -53,8 +53,9 @@ execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ~~~ a
  execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ^^1^ air run summon ender_crystal ~~~ minecraft:crystal_explode
  execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ^^1^ air run kill @s 
 
- execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ^^-1^ air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ^^-1^ air run kill @s 
+ execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ~~-1~ air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ~~-1~ air run kill @s 
+
 
  execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ^1^^ air run summon ender_crystal ~~~ minecraft:crystal_explode
  execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s unless block ^1^^ air run kill @s 
@@ -108,44 +109,44 @@ scoreboard players add @e[type=moxing:fireworks_rocket2] tick 1
 
 kill @e[type=moxing:fireworks_rocket2,scores={tick=300..}]
 
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1}] at @s if block ~~~ air run tp ^^0.80^
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1},tag=!bomb] at @s if block ~~~ air run tp ^^0.50^
 
 
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..}] at @s if block ~~~ air run tp ^^^0.90
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..}] at @s if block ~~~ water run tp ^^^0.90
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..}] at @s if block ~~~ tallgrass run tp ^^^0.90
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..}] at @s if block ~~~ double_plant run tp ^^^0.90
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..}] at @s if block ~~~ lava run tp ^^^0.90
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..}] at @s if block ~~~ seagrass run tp ^^^0.90
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..},tag=!bomb] at @s if block ~~~ air run tp ^^^0.90
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..},tag=!bomb] at @s if block ~~~ water run tp ^^^0.90
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..},tag=!bomb] at @s if block ~~~ tallgrass run tp ^^^0.90
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..},tag=!bomb] at @s if block ~~~ double_plant run tp ^^^0.90
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..},tag=!bomb] at @s if block ~~~ lava run tp ^^^0.90
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=1..},tag=!bomb] at @s if block ~~~ seagrass run tp ^^^0.90
 
 
-execute as @e[type=moxing:fireworks_rocket2] at @s if block ~~~ air                           run tp ^^0.90^ facing @e[tag=atk,c=1,m=!c] 
-execute as @e[type=moxing:fireworks_rocket2] at @s if block ~~~ air unless entity @e[tag=atk,m=!c] run tp ^^0.90^ facing @e[type=!player,type=!arrow,type=!item,type=!falling_block,type=!splash_potion,type=!xp_orb,type=!minecart,type=!villager,type=!iron_golem,type=!cat,type=!fireworks_rocket,type=!moxing:dilei,type=!chicken,type=!cow,type=!sheep,type=!pufferfish,type=!cod,type=!tropicalfish,type=!salmon,type=!pig,type=!moxing:rocket_luancher,type=!xp_orb,type=!horse,family=monster,c=1] 
+execute as @e[type=moxing:fireworks_rocket2,tag=!bomb] at @s if block ~~~ air                           run tp ^^0.90^ facing @e[tag=atk,c=1,m=!c] 
+execute as @e[type=moxing:fireworks_rocket2,tag=!bomb] at @s if block ~~~ air unless entity @e[tag=atk,m=!c] run tp ^^0.90^ facing @e[type=!player,type=!arrow,type=!item,type=!falling_block,type=!splash_potion,type=!xp_orb,type=!minecart,type=!villager,type=!iron_golem,type=!cat,type=!fireworks_rocket,type=!moxing:dilei,type=!chicken,type=!cow,type=!sheep,type=!pufferfish,type=!cod,type=!tropicalfish,type=!salmon,type=!pig,type=!moxing:rocket_luancher,type=!xp_orb,type=!horse,family=monster,c=1] 
 #s if entity @e[type=phantom,r=60] 
 
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ~~~ air run summon ender_crystal ~~~ minecraft:crystal_explode
-execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ~~~ air run kill @s 
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ~~~ air run summon ender_crystal ~~~ minecraft:crystal_explode
+execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ~~~ air run kill @s 
 
 
 
 
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^^-1 air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^^-1 air run kill @s 
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^^^-1 air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^^^-1 air run kill @s 
 
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^^1 air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^^1 air run kill @s 
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^^^1 air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^^^1 air run kill @s 
  
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^1^ air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^1^ air run kill @s 
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^^1^ air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^^1^ air run kill @s 
 
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^-1^ air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^^-1^ air run kill @s 
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ~~-1~ air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ~~-1~ air run kill @s 
 
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^1^^ air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^1^^ air run kill @s 
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^1^^ air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^1^^ air run kill @s 
 
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^-1^^ air run summon ender_crystal ~~~ minecraft:crystal_explode
- execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..}] at @s unless block ^-1^^ air run kill @s 
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^-1^^ air run summon ender_crystal ~~~ minecraft:crystal_explode
+ execute as @e[type=moxing:fireworks_rocket2,scores={tick=25..},tag=!bomb] at @s unless block ^-1^^ air run kill @s 
 
 
 

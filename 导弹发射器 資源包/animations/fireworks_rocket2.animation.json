@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.fireworks_rocket2.wxd": {
+			"animation_length": 5,
+			"bones": {
+				"body": {
+					"rotation": [-90, 0, 0],
+					"position": {
+						"0.0": [0, 0, 2],
+						"0.5417": {"pre": [0, 0, 2], "post": [0, -4, 2]}
+					}
+				}
+			}
+		}
+	}
+}
