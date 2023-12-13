@@ -77,7 +77,7 @@ execute as @e[type=fireworks_rocket,scores={tick=25..}] at @s if entity @e[r=5,t
 
 
 
-
+#地雷
 scoreboard players add @e[type=moxing:dilei] tick 1
 
 execute as @e[type=moxing:dilei,scores={tick=1}] at @s run playsound set @a ~~~
@@ -102,7 +102,7 @@ execute as @e[type=moxing:dilei,scores={tick=80..}] at @s if entity @e[r=2,type=
 
 
 
-##爆炸烟花2
+#爆炸烟花2
 
 scoreboard objectives add tick dummy tick
 scoreboard players add @e[type=moxing:fireworks_rocket2] tick 1

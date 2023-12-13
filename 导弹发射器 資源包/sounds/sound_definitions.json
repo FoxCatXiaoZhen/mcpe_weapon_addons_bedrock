@@ -75,5 +75,14 @@
           "name": "sounds/random/battle_airplane"
         }
       ]
+    },
+    "big_explosion": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/random/big_explosion",
+          "volume" : 5
+        }
+      ]
     }
 }
