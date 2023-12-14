@@ -31,10 +31,6 @@
     {
      "name": "sounds/random/bao7",
      "volume" : 1
-    },
-    {
-     "name": "sounds/random/bao8",
-     "volume" : 1
     }
 
   ]
@@ -72,7 +68,8 @@
       "category": "music",
       "sounds": [
         {
-          "name": "sounds/random/battle_airplane"
+          "name": "sounds/random/battle_airplane",
+          "volume" : 0.2
         }
       ]
     },
@@ -81,7 +78,7 @@
       "sounds": [
         {
           "name": "sounds/random/big_explosion",
-          "volume" : 5
+          "volume" : 0.5
         }
       ]
     }
